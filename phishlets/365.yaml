@@ -173,6 +173,7 @@ auth_tokens:
       - {key: 'rememberMFA', search: '.*'}
     force:
       - {key: 'rememberMFA', value: 'true'}
+    type: 'post'
   - path: '/login.srf'
     search:
       - {key: 'wa', search: '.*'}
